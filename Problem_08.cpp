@@ -22,7 +22,7 @@ int ReadPositiveNumber(string message)
 }
 
 
-int CountDigitFrequency(int Number , int Digit)
+int CountDigitFrequency(int Number , short Digit)
 {
 	int Reminder = 0, Counter = 0;
 	
