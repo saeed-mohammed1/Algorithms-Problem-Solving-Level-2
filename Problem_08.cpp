@@ -41,7 +41,7 @@ int CountDigitFrequency(int Number , int Digit)
 int main()
 {
 	int Number = ReadPositiveNumber("Please enter the main number?");
-	int Digit = ReadPositiveNumber("Please enter one digit to check?");
+	short Digit = ReadPositiveNumber("Please enter one digit to check?");
 	cout << "Digit " << Digit << " Frequency is " << CountDigitFrequency(Number, Digit) << " Time(s).";
 	
 	return 0;
