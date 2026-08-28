@@ -22,7 +22,7 @@ int ReadPositiveNumber(string message)
 }
 
 
-void PrintIvertedNumberPattern(int Number)
+void PrintInvertedNumberPattern(int Number)
 {
 	for (int i = Number; i >= 1; i--)
 	{
@@ -39,7 +39,7 @@ void PrintIvertedNumberPattern(int Number)
 int main()
 {
 	
-	PrintIvertedNumberPattern(ReadPositiveNumber("Please enter the main number?"));
+	PrintInvertedNumberPattern(ReadPositiveNumber("Please enter the main number?"));
 		
 	return 0;
 }
