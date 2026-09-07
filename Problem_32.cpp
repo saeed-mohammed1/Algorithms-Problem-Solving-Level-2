@@ -10,14 +10,6 @@
 #include <string>
 using namespace std;
 
-void SwapNumber(int &A, int &B)
-{
-	int Swap = A;
-	A = B;
-	B = Swap;
-
-}
-
 int RandomNumber(int From, int To)
 {
 	int randNum = rand() % (To - From + 1) + From;
