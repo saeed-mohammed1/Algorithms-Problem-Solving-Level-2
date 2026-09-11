@@ -46,7 +46,7 @@ void ReadArray(int arr[100], int arrLength)
 	}
 }
 
-void CopyArrayElements(int arr[100], int arr2[100], int arrLength, int &Length2)
+void CopyArrayOddElements(int arr[100], int arr2[100], int arrLength, int &Length2)
 {
 	
 	for (int i = 0; i < arrLength; i++)
@@ -80,7 +80,7 @@ int main()
 	arrLength = ReadPositiveNumber("Please enter your Length?");
 	ReadArray(arr, arrLength);
 
-	CopyArrayElements(arr, arrCopy, arrLength, Length2);
+	CopyArrayOddElements(arr, arrCopy, arrLength, Length2);
 	cout << "\nArray 1 elements :\n";
 	PrintArray(arr, arrLength);
 
