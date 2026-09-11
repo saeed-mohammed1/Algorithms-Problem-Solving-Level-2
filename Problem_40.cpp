@@ -7,7 +7,6 @@
   =============================================================================
 */
 #include <iostream>
-#include <string>
 using namespace std;
 
 void FillArray(int arr[100], int& arrLength)
